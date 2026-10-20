@@ -1,0 +1,17 @@
+{
+  "method": "containerfile",
+  "base_image_uri": "ghcr.io/ublue-os/bluefin-dx:stable",
+  "base_image_name": "Bluefin DX",
+  "repo_name": "my-bluefin-dx",
+  "image_desc": "My custom bootc image",
+  "packages": [],
+  "copr_repos": [],
+  "services": [],
+  "removed_packages": [],
+  "brew_enabled": false,
+  "signing_enabled": true,
+  "github_user": "slewfoot66",
+  "scan_customizations_carried": false,
+  "tool_version": "0.12.0",
+  "state_version": 1
+}
