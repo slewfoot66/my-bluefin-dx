@@ -27,6 +27,10 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref || github.run_id }}
   cancel-in-progress: true
 
+  - name: Pre-pull container image
+    run: |
+      sudo podman pull ghcr.io/slewfoot66/my-bluefin-dx:latest
+
 jobs:
   build:
     name: Build disk images
