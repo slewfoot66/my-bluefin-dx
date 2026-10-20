@@ -33,7 +33,7 @@ Selected packages are what this repo will attempt to add, even if some are alrea
 
 ## Enabled Services
 
-- None.
+- `sshd.service`
 
 ## Removed Base Packages
 

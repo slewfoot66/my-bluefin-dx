@@ -7,3 +7,6 @@ if [ -d /ctx/system_files ]; then
 fi
 
 # dnf5 install -y <your-packages-here>
+
+# Enable systemd services
+systemctl enable sshd.service

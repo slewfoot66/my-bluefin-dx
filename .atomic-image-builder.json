@@ -6,7 +6,9 @@
   "image_desc": "My custom bootc image",
   "packages": [],
   "copr_repos": [],
-  "services": [],
+  "services": [
+    "sshd.service"
+  ],
   "removed_packages": [],
   "brew_enabled": false,
   "signing_enabled": true,
