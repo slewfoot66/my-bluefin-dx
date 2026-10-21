@@ -28,8 +28,7 @@ concurrency:
   cancel-in-progress: true
 
   - name: Pre-pull container image
-    run: |
-      sudo podman pull ghcr.io/slewfoot66/my-bluefin-dx:latest
+    run: sudo podman pull ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}:latest
 
 jobs:
   build:
